@@ -1,0 +1,398 @@
+html, body{
+	margin: 0px;
+	background-color: #272732;
+}
+h10{
+	display: block;
+	text-align: center;
+	font-family: sans-serif;
+	color: #FFF;
+	padding-top: 12px;
+	font-size: 14px;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+}
+h11{
+	display: block;
+	text-align: center;
+	text-align: center;
+	font-family: sans-serif;
+	color: #ada6ba;
+	font-size: 11px;
+}
+h11:hover{
+	text-decoration: underline;	
+}
+h12{
+	position: absolute;
+	bottom: 0px;
+	display: block;
+	width: 100%;
+	font-family:sans-serif;
+	font-size: 12px;
+	margin-top: 10px;
+	color: #fff;
+	cursor: pointer;
+}
+h12:hover{
+	text-decoration: underline;	
+}
+h13{/******** Section Headers  ***********/
+	display: block;
+	text-align: center;
+	color: #333;
+	font-size: 36px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	letter-spacing:.02em;
+	padding-bottom: 20px;
+}
+h14{ /******** Body copy  ***********/
+	text-align: center;
+	color: #777;
+	font-size: 17px;
+	line-height: 1.8em;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+}
+h14 span{ /******** Body copy  ***********/
+	display: block;
+	text-align: center;
+	padding-bottom: 80px;
+}
+h15 img{
+	width: 103px;
+	height: 103px;
+	float: left;
+	margin-right: 20px;
+}
+h15{/******** Paragraph Headers  ***********/
+	display: block;
+	color: #555;
+	font-size: 28px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	letter-spacing:.02em;
+}
+.chooseFav h14{
+	display: block;
+	max-width: 475px;
+	text-align: left;
+	color: #777;
+}
+.chooseFav h15{
+	margin-top: 60px;
+	color: #444;
+}
+h16{
+	display: block;
+	position: fixed;
+	left: 50%;
+	margin-left: -200px;
+	text-align: center;
+	top:260px;
+	width: 400px;
+	height: 200px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	letter-spacing:.02em;
+	color: #ada6ba;
+	font-size: 21px;
+}
+h16 span{
+	font-weight: 400;
+	color: #ada6ba;	
+}
+
+
+.paragraphPad{
+	padding-bottom:80px;
+}
+.wrapper{	
+	height: 3000px;
+}
+.smooth{	
+	height: 3000px;
+}
+/******** Login Section STARTS  ***********/
+.login-Section{
+	position: relative;
+	height: 860px;
+	background-color:#dee3e8;
+	background-image: url(../images/color-strip.jpg);
+	/*background-image: -moz-linear-gradient(-90deg, transparent 50%, #FFF 100%), url(assets/images/color-strip.jpg));*/
+	/*background-image: url(assets/images/pinkTable.png);*/
+	background-image: url(../images/login-bkg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;	
+}
+.mainSlideshow{
+	position: relative;
+	height: 860px;
+	background-color:#272732;	
+}
+.mainSlideshow img{
+	position: fixed;
+	object-fit: cover;
+	width: 100%;
+	height: 860px;		
+}	
+login-animation-box{
+	position: absolute;
+	overflow: hidden;
+	left: 50%;
+	margin-left: -282px;
+	bottom: 0px;
+	width: 564px;
+	height: 476px;
+	background-image: url(../images/tablet.png);
+	opacity: 0;
+	display: none;
+}
+rightArm{
+	position: absolute;
+	bottom: 0px;
+	left:200px;
+	width: 200px;
+	height: 384px;
+	z-index: 2;
+	background-image: url(../images/rightArm.png);
+}
+coffeeCup{
+	position: absolute;
+	bottom: 280px;
+	z-index: 1;
+	width: 200px;
+	height: 180px;
+	left: 50%;
+	margin-left: 250px;
+	background-image: url(../images/coffee.png);
+}
+.selectRight{
+  float:right;
+  width:200px;
+  height:300px;
+  background-color:blue;
+  opacity:0;
+}
+.downward-arrow{
+	position: fixed;
+	width: 30px;
+	height: 40px;
+	left: 50%;
+	top:760px;
+	margin-left: -15px;
+	background-image: url(../images/downward-arrow.png);
+	cursor: pointer;	
+}
+.downward-arrow:hover{
+	background-position: 30px 0px;	
+}
+/******** Login Section ENDS  ***********/
+
+/******** Explainer Section STARTS  ***********/
+
+.explainer-Section{
+	position: relative;
+	width: 100%;
+	background-color: #fafafa;
+	z-index: 4;
+	padding: 110px 0px 60px 0px;
+}
+
+/******** Different methods STARTS  ***********/
+
+.method1-Section{
+	position: relative;
+	width: 100%;
+	background-color: #fff;
+	z-index: 4;
+	padding: 125px 0px 60px 0px;
+}
+
+.method2-Section{
+	position: relative;
+	width: 100%;
+	padding: 125px 0px 60px 0px;
+	background-color: #fff;
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url(../images/politics_bkg.jpg);
+	z-index: 4;
+}
+.signUp-Section{
+	position: relative;
+	width: 100%;
+	background-color: #272732;
+	height: 400px;
+	z-index: 4;
+}
+/******** Different methods Section ENDS  ***********/
+
+/******** Explainer Section ENDS  ***********/
+
+
+logo{
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	top:125px;
+	left:50%;
+	margin-left: -20px;
+	background-image: url(../images/logo-circle.png);
+}
+.btnClass{
+	width: 106px;
+	border-radius: 4px;
+	height: 40px;
+	position: fixed;
+	left: 50%;
+	top:360px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.signUp-Section .signUp{
+	top:200px;
+	position:absolute;
+	margin-left: -57px;	
+}
+.signUp-Section .title{
+	top:50px;
+	position:absolute;
+}
+.logIn{
+	margin-left: -53px;
+	border: 0px solid #565765;	
+	transition: all .15s linear;
+}
+.logIn:hover{
+	background-color:rgba(255, 255, 255, .75);
+	border: 0px solid rgba(255, 255, 255, .75);
+}
+.logIn:hover h10{
+	color: #383b3e;
+}
+.signUp{
+	margin-top: 70px;
+	margin-left: -54px;
+	background-color: #36abab;
+	transition: all .15s linear;
+}
+.signUp h10{
+	color: #EEE;
+}
+.signUp:hover{
+	background-color:rgba(255, 255, 255, .75);
+}
+.signUp:hover h10{
+	color: #383b3e;
+}
+.footer{
+	position: fixed;
+	max-width: 400px;
+	margin: 0px auto;
+	top: 20px;
+	left: 0px;
+	right: 0px;
+	height: 30px;
+}
+.title{
+	width: 402px;
+	top: 140px;
+	height: 120px;
+	position: fixed;
+	left: 50%;
+	margin-left: -201px;
+	background-image: url(../images/title.png);
+}
+.footerText{
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+.footerText li{
+	float: left;
+	display: block;
+	width: 25%;
+	cursor: pointer;
+}
+.signUp-box{
+	position: fixed;
+	width: 240px;
+	height: 150px;
+	left: 50%;
+	margin-left:-120px;
+	top:300px;
+	display: block;
+	z-index: 5;
+	display: none;
+}
+.register-box{
+	position: fixed;
+	width: 240px;
+	height: 200px;
+	left: 50%;
+	margin-left:-120px;
+	top:300px;
+	display: block;
+	z-index: 5;
+	display: none;
+}
+.loginBtn{
+	position: absolute;
+	right: 0px;
+	bottom: 38px;
+	background-color: #3DB8B7;
+	font-size: 12px;
+	border: 0px;
+	border:none;
+	width: 70px;
+	padding: 3px 0px;
+	border-radius: 10px;
+	transition:all .15s linear;
+}
+.loginBtn:hover{
+	color: #124028;
+	background-color: #3db879;
+}
+.inputClass{
+	width: 240px;
+	height: 30px;
+	background-color:rgba(221, 221, 221, 0.6);
+	border: 0px;
+	border: none;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	color: #eee;
+	text-indent: 6px;
+	clear: both;
+	margin-bottom: 20px;
+}
+.indexOverlay{
+	position: fixed;
+	top:0px;
+	left:0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 100;
+	display:none;
+	z-index:5;	
+}
+.scrollUp{
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	background-color:#f90;
+	border: 1px solid #CCC;
+	border-radius: 50px;
+	z-index: 14;
+	cursor: pointer;
+	display: none;
+	background-image: url('../images/up-arrow.png');
+}
